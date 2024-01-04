@@ -1,0 +1,33 @@
+# Dirsearch started Thu Jan  4 05:55:34 2024 as: /home/blaktux/Dev/BugBountyHunting/dirsearch/dirsearch.py -u scanme.nmap.org -e php
+
+403   293B   http://scanme.nmap.org/.ht_wsr.txt
+403   296B   http://scanme.nmap.org/.htaccess.orig
+403   298B   http://scanme.nmap.org/.htaccess.sample
+403   296B   http://scanme.nmap.org/.htaccess.save
+403   296B   http://scanme.nmap.org/.htaccess.bak1
+403   296B   http://scanme.nmap.org/.htaccess_orig
+403   294B   http://scanme.nmap.org/.htaccess_sc
+403   295B   http://scanme.nmap.org/.htaccessOLD2
+403   294B   http://scanme.nmap.org/.htaccessBAK
+403   297B   http://scanme.nmap.org/.htaccess_extra
+403   286B   http://scanme.nmap.org/.htm
+403   287B   http://scanme.nmap.org/.html
+403   294B   http://scanme.nmap.org/.htaccessOLD
+403   296B   http://scanme.nmap.org/.htpasswd_test
+403   293B   http://scanme.nmap.org/.httr-oauth
+403   292B   http://scanme.nmap.org/.htpasswds
+403   287B   http://scanme.nmap.org/.svn/
+301   316B   http://scanme.nmap.org/.svn    -> REDIRECTS TO: http://scanme.nmap.org/.svn/
+403   298B   http://scanme.nmap.org/.svn/all-wcprops
+403   294B   http://scanme.nmap.org/.svn/entries
+403   297B   http://scanme.nmap.org/.svn/text-base/
+403   315B   http://scanme.nmap.org/.svn/text-base/index.php.svn-base
+403   291B   http://scanme.nmap.org/.svn/prop
+403   292B   http://scanme.nmap.org/.svn/wc.db
+403   291B   http://scanme.nmap.org/.svn/text
+403   293B   http://scanme.nmap.org/favicon.ico
+301   318B   http://scanme.nmap.org/images    -> REDIRECTS TO: http://scanme.nmap.org/images/
+200   947B   http://scanme.nmap.org/images/
+403   296B   http://scanme.nmap.org/server-status/
+403   295B   http://scanme.nmap.org/server-status
+301   318B   http://scanme.nmap.org/shared    -> REDIRECTS TO: http://scanme.nmap.org/shared/
