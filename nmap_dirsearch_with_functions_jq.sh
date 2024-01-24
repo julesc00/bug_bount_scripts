@@ -1,22 +1,8 @@
 #!/bin/bash
+source ./scan_lib
 
 #nmap scanme.nmap.org
 #/PATH/TO/dirsearch.py -u scanme.nmap.org -e php
-
-nmap_scan() {
-  nmap "$DOMAIN" > "$DIRECTORY"/nmap
-  echo "The results of nmap scan are stored in $DIRECTORY/nmap."
-}
-
-dirsearch_scan() {
-  dirsearch.py -u "$DOMAIN" -e php --simple-report="$DIRECTORY"/dirsearch
-  echo "The results of dirsearch are stored in $DIRECTORY/dirsearch."
-}
-
-ctr_scan() {
-  curl "https://crt.sh/?q=${DOMAIN}&output=json" -o "$DIRECTORY"/crt
-  echo "The results of cert parsing is stored in $DIRECTORY/crt"
-}
 
 # Get options
 getopts "m:" OPTION
@@ -64,3 +50,5 @@ do
       jq -r ".[] | .name_value" "${DIRECTORY}/crt" >> "${DIRECTORY}/report"
     fi
 done
+
+
